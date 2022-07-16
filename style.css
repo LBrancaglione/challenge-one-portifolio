@@ -1,0 +1,1039 @@
+body {
+    background: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*NavBar Stle starts here*/
+
+.nav {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+nav li a {
+    color: #464646;
+}
+
+nav h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+}
+
+.navtitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.staricon {
+    display: flex;
+    flex-direction: row;
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    top: 4px;
+    border-radius: 0px;
+}
+
+.littleStar {
+    display: flex;
+    flex-direction: column;
+    height: 8px;
+    width: 8px;
+    left: 15px;
+    top: 1px;
+    border-radius: 0px;
+}
+
+/*NavBar Stle ends here*/
+/*Main content starts here*/
+/*presentation starts here*/
+.presentation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 110px;
+    width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.presentation-card-text h1 {
+    height: 122px;
+    width: 751px;
+    left: 0px;
+    top: 0px;
+    text-align: start;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+    margin-bottom: 70px;
+}
+
+.presentation-card-text p {
+    width: 751px;
+    height: 52px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin-bottom: 70px;
+}
+
+.presentation-card-text ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation-card-text li {
+    padding-right: 30px;
+}
+
+.presentation-card-text li a {
+    padding-right: 5px;
+    color: #464646;
+}
+
+/*presentation ends here*/
+/*About Starts here*/
+
+.about {
+    background: #EAF2FD;
+}
+
+.about-card-text {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.about-card-text h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+.about-card-text p {
+    width: 751px;
+    height: 133px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+/*About ends here*/
+/*Cards starts here*/
+.cards {
+    background: #F5F5F5;
+    margin-bottom: 88px;
+}
+
+.cards h3 {
+    padding: 32px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.cards-row {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 176px;
+    height: 174px;
+    background: #ffffff;
+}
+
+.card i {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A7AE4;
+}
+
+.card p {
+    width: 144px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+}
+
+.cards .cards-row div:nth-of-type(n+2) {
+    margin-left: 46px;
+}
+
+.cards h3:nth-of-type(2) {
+    margin-top: 50px;
+}
+
+/*Cards ends here*/
+/*Formation Cards starts here*/
+.formation {
+    background: #EAF2FD;
+    height: 581px;
+}
+
+.formation h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    padding: 32px;
+
+}
+
+.card-formation {
+    width: 368px;
+    height: 336px;
+}
+
+.card-formation h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    text-align: left;
+    padding: 2px 0px 0px 0px;
+}
+
+.card-formation p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding-top: 10px;
+}
+
+.card-formation-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 368px;
+    height: 286px;
+    background: #ffffff;
+}
+
+.universityLogo {
+    margin: 0 auto;
+    width: 192px;
+    height: 130px;
+}
+
+.cards-row-formation {
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.formation .cards-row-formation div:nth-of-type(n+2) {
+    margin-left: 50px;
+}
+
+/*Formation Cards ends here*/
+/*Experience starts here*/
+
+.experience {
+    width: 1240px;
+    margin: 0 auto;
+    margin-bottom: 88px;
+}
+
+.experience h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+    padding: 32px;
+}
+
+.experience-card-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 53.5px;
+}
+
+.experience-card-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 53.5px;
+}
+
+.experience-card-2 img {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.experience-card-2 .experience-links {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.experience-card-1 img {
+    width: 752px;
+    height: 406px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px;
+}
+
+.experience-card-2 img {
+    width: 752px;
+    height: 406px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px;
+}
+
+.experience-card-text h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.experience-card-text p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding: 0px 0px 15px 32px;
+}
+
+.experience-links {
+    padding-left: 32px;
+}
+
+.experience-links button {
+    width: 115px;
+    height: 51px;
+    background: #ffffff;
+    border-color: #2A7AE4;
+}
+
+.experience-links button a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+/*Experience ends here*/
+/*Contact starts here*/
+
+.contact {
+    height: 788px;
+    background: #EAF2FD;
+}
+
+.contact-area {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1136px;
+    height: 660px;
+    padding: 64px 0px 0px;
+}
+
+.contact-card img {
+    width: 464px;
+    height: 593px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 16px;
+    gap: 16px;
+}
+
+.contact-form h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.contact-form p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.contact-form button {
+    width: 115px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+#name, #email, #subject {
+    width: 740px;
+    height: 46px;
+    background: #FFFFFF;
+    align-self: stretch;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#message {
+    width: 740px;
+    height: 198px;
+    background: #FFFFFF;
+    align-self: stretch;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+input:focus {
+    border-bottom: 4px solid #2A7AE4;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+textarea:focus {
+    border-bottom: 4px solid #2A7AE4;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/*Contact ends here*/
+/*Main content ends here*/
+/*footer content starts here*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    height: 60px;
+    background: #FFFFFF;
+}
+
+.footer p {
+    width: 234px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+}
+
+/*footer content ends here*/
+
+/*Responsive for 768px*/
+
+@media screen and (max-width: 768px) {
+    .nav {
+        width: 768px;
+    }
+
+    .navbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    nav li:nth-child(-n + 5) {
+        display: none;
+    }
+
+    nav li {
+        width: 159px;
+        height: 19px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .presentation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 88px;
+        width: 768px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        padding-left: 10px;
+    }
+
+    .presentation .img-big {
+        width: 146px;
+        height: 146px;
+    }
+
+    .presentation-card-text h1 {
+        width: 524px;
+        height: 52px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    .presentation-card-text p {
+        width: 524px;
+        height: 38px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 30px;
+    }
+
+    .about-card-text {
+        width: 768px;
+        padding-left: 10px;
+    }
+
+    .about-card-text h3 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .about-card-text p {
+        width: 704px;
+        height: 112px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .cards-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        max-width: 768px;
+        height: 390px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 8px;
+
+        width: 114px;
+        height: 118px;
+    }
+
+    .card:nth-child(n+4) {
+        grid-row: 1;
+    }
+
+    .formation {
+        width: 768px;
+        padding-left: 10px;
+    }
+
+    .card-formation {
+        width: 224px;
+        height: 169px;
+    }
+
+
+    .card-formation-img {
+        width: 184px;
+        height: 118px;
+    }
+
+    .cards-row-formation {
+        max-width: 768px;
+    }
+
+    .experience {
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .experience-card-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .experience-card-1 img {
+        width: 704px;
+        height: 320px;
+    }
+
+    .experience-card-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 0px;
+        gap: 16px;
+    }
+
+    .experience-card-2 img {
+        width: 704px;
+        height: 320px;
+    }
+
+    .experience-card-text h3 {
+        padding-left: 0px;
+    }
+
+    .experience-card-text p {
+        padding-left: 0px;
+    }
+
+    .experience-links {
+        padding-left: 0px;
+    }
+
+    .contact-area {
+        width: 768px;
+    }
+
+    .contact-card {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    .contact-card img {
+        display: none;
+    }
+
+    #name, #email, #subject {
+        width: 704px;
+        height: 56px;
+        padding-left: 0px;
+    }
+
+    #message {
+        width: 704px;
+        height: 133px;
+    }
+
+    .contact-form {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        padding: 0px;
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav {
+        max-width: 360px;
+    }
+
+    .navbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+
+        width: 360px;
+        height: 56px;
+        margin-bottom: 10px;
+    }
+
+    .navbox h3 {
+        font-size: 15px;
+    }
+
+    .navbox li {
+        font-size: 10px;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+        margin-bottom: 10px;
+        width: 360px;
+        height: 294px;
+    }
+
+    .presentation .img-big {
+        order: 1;
+        width: 98px;
+        height: 98px;
+    }
+
+    .presentation-card-text {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        width: 328px;
+        height: 148px;
+    }
+
+    .presentation-card-text h1 {
+        width: 328px;
+        height: 52px;
+        font-size: 22px;
+        padding-bottom: 14px;
+    }
+
+    .presentation-card-text p {
+        width: 328px;
+        height: 48px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .presentation-card-text li {
+        font-size: 10px;
+    }
+
+    .presentation-card-text li img {
+        height: 10.666666802005876px;
+        width: 10.666666802005876px;
+        left: 15.542236328125px;
+        top: 8px;
+        border-radius: 0px;
+    }
+
+    .about-card-text {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        gap: 10px;
+
+        width: 360px;
+        height: 350px;
+    }
+
+    .about-card-text p {
+        width: 328px;
+        height: 208px;
+    }
+
+    .about-card-text img {
+        width: 140px;
+        height: 52px;
+        margin-bottom: 0px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 16px;
+
+        width: 156px;
+        height: 118px;
+    }
+
+    .cards-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+
+        max-width: 328px;
+        height: 240px;
+        margin-bottom: 280px;
+    }
+
+    .cards .cards-row div:nth-of-type(n+2) {
+        margin-left: 0px;
+    }
+
+    .formation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+
+        width: 360px;
+        height: 800px;
+    }
+
+    .cards-row-formation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        width: 296px;
+        height: 539px;
+    }
+
+    .card-formation {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 8px;
+
+        width: 296px;
+        height: 169px;
+    }
+
+    .formation .cards-row-formation div:nth-of-type(n+2) {
+        margin-left: 0px;
+    }
+
+    .card-formation-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+
+        width: 296px;
+        height: 118px;
+    }
+
+    .formation h3 {
+        padding: 0px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .card-formation h3 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .card-formation p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .experience {
+        width: 360px;
+        height: 951px;
+        margin-bottom: 0px;
+    }
+
+    .experience-card-1 {
+        align-items: center;
+    }
+
+    .experience-card-1 img {
+        width: 296px;
+        height: 144px;
+    }
+
+    .experience-card-2 {
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .experience-card-2 img {
+        width: 296px;
+        height: 144px;
+    }
+
+    .experience-card-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 296px;
+        height: 91px;
+    }
+
+    .experience-card-text h3 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .experience-card-text p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .experience-links button a {
+        width: 76px;
+        height: 16px;
+    }
+
+    .contact-area {
+        width: 360px;
+        height: 675px;
+    }
+
+    .contact-card{
+        width: 360px;
+        height: 675px;
+    }
+
+    .contact-card h3 {
+        font-weight: 700;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .contact-card p {
+        font-weight: 500;
+        font-size: 16px;
+        width: 296px;
+        height: 76px;
+    }
+
+    #name, #email, #subject {
+        width: 296px;
+        height: 56px;
+    }
+
+    #message{
+        width: 296px;
+    }
+}
