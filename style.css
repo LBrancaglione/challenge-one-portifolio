@@ -544,15 +544,15 @@ textarea:focus {
 
 @media screen and (max-width: 768px) {
     .nav {
-        width: 768px;
+        width: 748px;
     }
 
     .navbox {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 10px;
         margin-bottom: 100px;
     }
@@ -572,8 +572,8 @@ textarea:focus {
     .presentation {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 88px;
-        width: 768px;
+        grid-gap: 60px;
+        width: 728px;
         margin: 0 auto;
         margin-bottom: 70px;
         padding-left: 10px;
@@ -609,7 +609,7 @@ textarea:focus {
     }
 
     .about-card-text {
-        width: 768px;
+        width: 748px;
         padding-left: 10px;
     }
 
@@ -635,7 +635,7 @@ textarea:focus {
         padding: 0px;
         gap: 32px;
 
-        max-width: 768px;
+        max-width: 748px;
         height: 390px;
     }
 
@@ -656,8 +656,8 @@ textarea:focus {
     }
 
     .formation {
-        width: 768px;
-        padding-left: 10px;
+        width: 748px;
+        padding-left: 0px;
     }
 
     .card-formation {
@@ -672,11 +672,11 @@ textarea:focus {
     }
 
     .cards-row-formation {
-        max-width: 768px;
+        max-width: 748px;
     }
 
     .experience {
-        width: 768px;
+        width: 748px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -723,11 +723,11 @@ textarea:focus {
     }
 
     .contact-area {
-        width: 768px;
+        width: 748px;
     }
 
     .contact-card {
-        max-width: 768px;
+        max-width: 748px;
         display: flex;
         flex-direction: column;
         align-items: center;
