@@ -770,20 +770,24 @@ textarea:focus {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 16px;
+        padding: 6px;
         gap: 10px;
 
-        width: 360px;
-        height: 56px;
+        width: 40%;
+        height: 40%;
         margin-bottom: 10px;
     }
 
     .navbox h3 {
-        font-size: 15px;
+        font-size: 60%;
     }
 
     .navbox li {
         font-size: 10px;
+    }
+
+    .staricon, .littleStar{
+        display: none;
     }
 
     .presentation {
@@ -792,7 +796,7 @@ textarea:focus {
         align-items: flex-start;
         padding: 16px;
         gap: 16px;
-        margin-bottom: 10px;
+        margin-bottom: 150px;
         width: 360px;
         height: 294px;
     }
@@ -801,6 +805,7 @@ textarea:focus {
         order: 1;
         width: 98px;
         height: 98px;
+        margin-left: 25px;
     }
 
     .presentation-card-text {
@@ -811,26 +816,33 @@ textarea:focus {
         padding: 0px;
         gap: 16px;
 
-        width: 328px;
+        width: 200px;
         height: 148px;
     }
 
     .presentation-card-text h1 {
-        width: 328px;
+        width: 150px;
         height: 52px;
-        font-size: 22px;
-        padding-bottom: 14px;
+        font-size: 15px;
+        padding-bottom: 50px;
     }
 
     .presentation-card-text p {
-        width: 328px;
+        width: 150px;
         height: 48px;
         font-size: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 60px;
     }
 
-    .presentation-card-text li {
+    .presentation-card-text ul {
+        max-width: 150px;
+        display: flex;
+        flex-wrap: wrap;
         font-size: 10px;
+    }
+
+    .presentation-card-text li{
+        padding-bottom: 10px;
     }
 
     .presentation-card-text li img {
